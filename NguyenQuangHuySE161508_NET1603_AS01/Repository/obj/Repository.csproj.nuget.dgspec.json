@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\Repository\\Repository.csproj": {}
+  },
+  "projects": {
+    "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\BusinessObjects\\BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\BusinessObjects\\BusinessObjects.csproj",
+        "projectName": "BusinessObjects",
+        "projectPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\huyqn\\.nuget\\packages\\",
+        "outputPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\BusinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\huyqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\huyqn\\.nuget\\packages\\",
+        "outputPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\huyqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\BusinessObjects\\BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\huyqn\\.nuget\\packages\\",
+        "outputPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\huyqn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "F:\\Fall2023\\prn221\\handon\\Assignment01\\NguyenQuangHuySE161508_NET1603_AS01\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

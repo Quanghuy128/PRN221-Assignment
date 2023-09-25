@@ -1,0 +1,31 @@
+﻿<Window x:Class="NguyenQuangHuyWPF.CustomerProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:NguyenQuangHuyWPF"
+        mc:Ignorable="d"
+        Title="Customer Profile" Height="276" Width="488" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="OnLoad">
+    <Grid>
+        <Image Source="https://img.freepik.com/premium-photo/cartoon-game-avatar-logo-gaming-brand_902820-465.jpg" Name="avatar" HorizontalAlignment="Left" Height="100" Margin="48,35,0,0" VerticalAlignment="Top" Width="100"/>
+
+        <Label Content="Email" HorizontalAlignment="Left" Margin="184,84,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="178,122,0,0" VerticalAlignment="Top" Width="67"/>
+        <Label Content="Full Name" HorizontalAlignment="Left" Margin="177,44,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Telephone" HorizontalAlignment="Left" Margin="179,163,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label Content="Birthday" HorizontalAlignment="Left" Margin="180,203,0,0" VerticalAlignment="Top" Width="56"/>
+
+        <TextBox IsEnabled="False" Name="txtCustomerName" HorizontalAlignment="Left" Margin="251,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="184" Height="22"/>
+        <TextBox IsEnabled="False" Name="txtEmail" HorizontalAlignment="Left" Margin="251,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="184" Height="22"/>
+        <PasswordBox IsEnabled="False" Name="pwbPassword" HorizontalAlignment="Left" Margin="251,126,0,0" VerticalAlignment="Top" Width="184" Height="22"/>
+        <TextBox IsEnabled="False" Name="txtTelephone" HorizontalAlignment="Left" Margin="253,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="184" Height="22"/>
+        <DatePicker IsEnabled="False" DisplayDateEnd="{x:Static sys:DateTime.Today}" Name="dtpCustomerBirthday" HorizontalAlignment="Left" Margin="251,203,0,0" VerticalAlignment="Top" Height="26" Width="186" RenderTransformOrigin="-0.928,5.143"/>
+
+        <Button Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="417,15,0,0" VerticalAlignment="Top" Height="24" Width="56" Click="btnUpdate_Click"/>
+        <Button Visibility="Hidden" Name="btnDone" Content="Done" HorizontalAlignment="Left" Margin="357,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.101,0.303" Height="24" Width="46" Click="btnDone_Click"/>
+        <Button Name="btnLogout" Content="Logout" HorizontalAlignment="Left" VerticalAlignment="Top" Height="27" Width="51" Click="btnLogout_Click"/>
+        <Button Name="btnViewTransaction" Content="View Transaction" HorizontalAlignment="Left" VerticalAlignment="Top" Height="27" Width="107" Margin="56,0,0,0" Click="btnViewTransaction_Click"/>
+        <Button Visibility="Hidden" Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="301,15,0,0" VerticalAlignment="Top" Height="24" Width="51" Click="btnCancel_Click"/>
+    </Grid>
+</Window>

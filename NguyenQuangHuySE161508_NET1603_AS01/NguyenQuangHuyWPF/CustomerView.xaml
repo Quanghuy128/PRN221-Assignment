@@ -1,0 +1,33 @@
+﻿<Window x:Class="NguyenQuangHuyWPF.CustomerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenQuangHuyWPF"
+        mc:Ignorable="d"
+        Title="CustomerView" Height="608" Width="1068" Loaded="OnLoad" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-6">
+        <Label Content="Customer Management (Admin)" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Height="55" Width="446"/>
+        <Button Name="btnCarView" Content="Cars View" HorizontalAlignment="Left" Margin="867,0,0,0" VerticalAlignment="Top" Width="82" Click="btnCarView_Click" Height="38"/>
+        <Button Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="954,0,0,0" VerticalAlignment="Top" Width="82" Height="38" Click="btnLogout_Click"/>
+
+        <TextBox Name="txtSearch" TextWrapping="NoWrap" HorizontalAlignment="Left" Margin="648,66,0,0" Text="" VerticalAlignment="Top" Width="329" Height="21"/>
+        <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="982,66,0,0" VerticalAlignment="Top" Height="21" Width="54" Click="btnSearch_Click"/>
+
+        <TextBox Name="txtCustomerId" IsEnabled="false" HorizontalAlignment="Left" Margin="27,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" Height="22"/>
+        <TextBox Name="txtCustomerName" IsEnabled="false" HorizontalAlignment="Left" Margin="27,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" Height="22"/>
+        <TextBox Name="txtTelephone" IsEnabled="false" HorizontalAlignment="Left" Margin="27,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" Height="22"/>
+        <TextBox Name="txtEmail" IsEnabled="false" HorizontalAlignment="Left" Margin="27,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" Height="22"/>
+        <DatePicker Name="dtpCustomerBirthday" IsEnabled="false" HorizontalAlignment="Left" Margin="316,55,0,0" VerticalAlignment="Top" Height="26" Width="186"/>
+        <TextBox x:Name="txtPassword" IsEnabled="false" HorizontalAlignment="Left" Margin="317,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" Height="22"/>
+        <CheckBox Name="ckCustomerStatus" IsEnabled="false" Content="Active" HorizontalAlignment="Left" Margin="316,140,0,0" VerticalAlignment="Top" Height="23" Width="84"/>
+
+        <DataGrid Name="dtgCustomers" Margin="10,207,0,109" SelectionChanged="dtgCustomers_SelectedChanged" IsReadOnly="True"/>
+
+        <Button Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="238,516,0,0" VerticalAlignment="Top" Height="46" Width="106" Click="btnCreate_Click"/>
+        <Button Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="398,516,0,0" VerticalAlignment="Top" Height="46" Width="104" Click="btnUpdate_Click"/>
+        <Button Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="562,516,0,0" VerticalAlignment="Top" Height="46" Width="104" Click="btnDelete_Click"/>
+        <Button Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="726,516,0,0" VerticalAlignment="Top" Height="46" Width="106"/>
+
+    </Grid>
+</Window>

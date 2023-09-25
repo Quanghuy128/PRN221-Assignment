@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CarCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CarManagementView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerCreate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RentingTransactionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TrackTransaction.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CarCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CarManagementView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerCreate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RentingTransactionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TrackTransaction.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

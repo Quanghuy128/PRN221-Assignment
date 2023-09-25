@@ -1,0 +1,17 @@
+﻿<Window x:Class="NguyenQuangHuyWPF.RentingTransactionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenQuangHuyWPF"
+        mc:Ignorable="d"
+        Title="RentingTransactionView" Height="450" Width="800" Loaded="OnLoad" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <DataGrid IsReadOnly="True" Name="dtgRenting" Margin="10,97,0,61"/>
+        <Button Name="btnLogout" Content="Log out" HorizontalAlignment="Left" Margin="714,10,0,0" VerticalAlignment="Top" Height="38" Width="76" Click="btnLogout_Click"/>
+        <Button Name="btnCarView" Content="Car View" HorizontalAlignment="Left" Margin="617,10,0,0" VerticalAlignment="Top" Height="38" Width="76" Click="btnCarView_Click"/>
+        <DatePicker Name="dtpStartDate" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Height="30" Width="154"/>
+        <DatePicker Name="dtpEndDate" HorizontalAlignment="Left" Margin="169,62,0,0" VerticalAlignment="Top" Height="30" Width="154"/>
+        <Button Name="btnFilter" Content="Filter" HorizontalAlignment="Left" Margin="360,62,0,0" VerticalAlignment="Top" Height="30" Width="59" Click="btnFilter_Click"/>
+    </Grid>
+</Window>
